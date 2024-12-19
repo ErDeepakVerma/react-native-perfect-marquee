@@ -1,6 +1,6 @@
 {
   "name": "react-native-perfect-marquee",
-  "version": "1.2.03",
+  "version": "1.2.04",
   "description": "React Native Perfect Marquee is a extremely lightweight React Native component that harnesses silky smooth marquees",
   "main": "index.js",
   "license": "MIT",
@@ -19,7 +19,15 @@
              "marquee"
             ],
   "author": "m_deepakverma",
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErDeepakVerma/react-native-perfect-marquee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ErDeepakVerma/react-native-perfect-marquee/issues"
+  },
+  "homepage": "https://github.com/ErDeepakVerma/react-native-perfect-marquee#readme",
+  
  "peerDependencies": {
   "react": ">=18.2.0 <19.0.0",
   "react-native": ">=0.74.0",

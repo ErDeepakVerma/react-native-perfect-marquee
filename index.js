@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import {View, Dimensions, ScrollView } from "react-native";
 import Animated, {Easing,useSharedValue,useAnimatedStyle,withRepeat,withTiming,} from "react-native-reanimated";
 const { width } = Dimensions.get("window");
-const Marquee = ({textColor,fontWeight,fontFamily,fontSize, autofill,marqueeDirection,marqueeSpeed,title,letterSpacing,backgroundColor,marginTop,marginBottom,padding }) => {
+const Marquee = ({textColor='white',fontWeight,fontFamily,fontSize=14, autofill,marqueeDirection,marqueeSpeed=14,title="title={'Please enter title/text like this'}",letterSpacing=0,backgroundColor='black',marginTop=0,marginBottom=0,padding=0}) => {
   const [textWidth, setTextWidth] = useState(0);
   const translateX = useSharedValue(0);
   useEffect(() => {
