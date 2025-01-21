@@ -2,15 +2,25 @@
 
  
   React Native Perfect Marquee is a lightweightReact Native component that harnesses silky smooth marquees
-  for both ANDROIDos and Ios.
+  for both ANDROIDos and Ios.Also RTL compatible (I18nManager)
 
   This React Native Perfect Marquee component allows text to scroll smoothly in both directions (left to right or right to left). It supports both a   single title and looped title, offering a seamless, customizable animation with various dynamic properties.
 <br>
 
+ <h4> Latest Update </h4>
+ <br>
+ numOfRepetitions=120 default (If render is not an issue manually set to 400 to 800 as per requirement). 
+ Default is sufficient.
+
+ RTL compatible (I18nManager) 
 
  <h4> Any Issues </h4>
+ Please let me know
+ <br>
   Email me on- deepak142verma@gmail.com 
+  <br>
   Message me on Instagram- m_deepakverma (Quick response)
+  <br>
   Link-- https://www.instagram.com/m_deepakverma/profilecard/?igsh=MXBpYjdua2FwbDgzaw==
 <br>
 
@@ -21,33 +31,33 @@
 # Usage
 <br>
 
-
  <h4>First Configure</h4>
   react-native-reanimated
 
 
-   <h4>Step 1: Install the package</h4>
+  <h4>Step 1: Install the package</h4>
   npm install react-native-reanimated
 
-
-    <h4>Step 2: Add Reanimated's babel plugin</h4>
+  <h4>Step 2: Add Reanimated's babel plugin</h4>
    module.exports = {
     presets: [
-      ... // don't add it here :)
+      ... // don't add it here :
     ],
     plugins: [
       ...
       'react-native-reanimated/plugin',
     ],
   };
-    <h4>Step 3: Clear Metro bundler cache (recommended)</h4>
+
+  <h4>Step 3: Clear Metro bundler cache (recommended)</h4>
   npm start -- --reset-cache
 
 
   <h4>Did'nt worked</h4>
-Try restart your whole project
+   Try restart your whole project
 
-    <h4>Still not working</h4>
+
+  <h4>Still not working</h4>
   Check official documentation of react-native-reanimated on below link
   https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/
 <br>
@@ -73,6 +83,7 @@ Reload metro after making changes or restart app
           marginTop={10}
           marginBottom={10}
           padding={22}
+          numOfRepetitions={120} is (Default) else set upto 800 as per requirement but more is number heavy is render 
           />
 
 
@@ -128,6 +139,8 @@ Reload metro after making changes or restart app
 | `marginBottom`    |Add margin to the bottom of the marquee.                      | `number`          | `marginBottom={10}`        |
 | `padding`         |Add padding around the content inside the marquee.            | `number`          | `padding={10}`             |
 
+<br>
+<br>
 
  # Support Me on PayPal Or GooglePay
 
